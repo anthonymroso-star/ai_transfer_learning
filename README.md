@@ -4,7 +4,7 @@ This repository contains a practical, hands-on deep learning workspace built wit
 
 ## 📂 Project Structure
 *   `tony_u4_l6_pytorch1.ipynb` - The full Jupyter Notebook containing data pipeline engineering, interactive model selection, GPU training loops, and live image classification metrics.
-* **[Training AI Pre-trained Models](https://github.com/anthonymroso-star/ai_iris/notebook/tony_u4_l6_pytorch1.ipynb)** - AI Transfer Learning, using the Pre-trainied ResNet model to transfer its visual knowlege into a customised class image identifier.
+* **[Training AI Pre-trained Models](https://github.com/anthonymroso-star/ai_iris/blob/main/notebook/tony_u4_l6_pytorch1.ipynb)** - AI Transfer Learning, using the Pre-trainied ResNet model to transfer its visual knowlege into a customised class image identifier.
 ##  Core Workflow Steps
 
 ### 1. Data Augmentation & Pipelines
