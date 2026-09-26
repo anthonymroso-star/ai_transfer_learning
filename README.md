@@ -8,7 +8,7 @@ This repository contains a practical, hands-on deep learning workspace built wit
 ##  Core Workflow Steps
 
 ### 1. Data Augmentation & Pipelines
-*   **Image Transformations:** Utilizes **Torchvision** to apply live data adjustments like random cropping, horizontal/vertical mirroring, and rotation to train a more adaptable system.
+*   **Image Transformations:** Utilises **Torchvision** to apply live data adjustments like random cropping, horizontal/vertical mirroring, and rotation to train a more adaptable system.
 *   **Data Splitting:** Segregates the image pool into three independent groups—**Training (80%)**, **Validation (10%)**, and **Testing (10%)**.
 *   **Batch Delivery:** Creates systematic data loaders that group data into structured batches of 32 images and shuffles training pathways to prevent memorization.
 
@@ -19,12 +19,12 @@ This repository contains a practical, hands-on deep learning workspace built wit
 *   **Output Rewiring:** Automatically swaps out the original final layer of the network to match the specific 10-class dataset architecture (including categories like airplanes, automobiles, birds, and cats).
 
 ### 3. GPU-Accelerated Training Loop
-*   **Hardware Maximization:** Automatically checks for a dedicated graphics processor (**GPU CUDA**) to speed up training tasks, defaulting safely to standard CPU processing when needed.
-*   **Optimization Setup:** Deploys a Cross-Entropy loss tracker paired with Stochastic Gradient Descent (SGD) to measure classification mistakes and update parameters over 10 training rounds (epochs).
+*   **Hardware Maximisation:** Automatically checks for a dedicated graphics processor (**GPU CUDA**) to speed up training tasks, defaulting safely to standard CPU processing when needed.
+*   **Optimisation Setup:** Deploys a Cross-Entropy loss tracker paired with Stochastic Gradient Descent (SGD) to measure classification mistakes and update parameters over 10 training rounds (epochs).
 *   **Loss Tracking:** Demonstrates steady system improvement as the measured error drops consistently from an initial score of 1.15 down to 0.60 by the final round.
 
 ### 4. Saving Checkpoints & Live Prediction
-*   **Model Saving:** Exports the finalized, trained internal weights into a portable deployment file named `model.pth`.
+*   **Model Saving:** Exports the finalised, trained internal weights into a portable deployment file named `model.pth`.
 *   **Live Image Inference:** Downloads a random sample picture (such as an A380 airliner) from the web, formats it to match original dimensions, and feeds it into the quieted evaluation engine.
-*   **Classification Results:** Successfully categorizes new test images with high accuracy, automatically turning mathematical output matrix scores back into clear index values (like identifying the sample airplane as Category 0).
+*   **Classification Results:** Successfully categorises new test images with high accuracy, automatically turning mathematical output matrix scores back into clear index values (like identifying the sample airplane as Category 0).
 
